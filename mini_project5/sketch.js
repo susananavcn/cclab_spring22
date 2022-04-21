@@ -9,11 +9,13 @@ let colors = [
 let shirtColor;
 
 function setup() {
-  createCanvas(400, 600);
+  let canvas = createCanvas(400, 600);
+  canvas.id("p5-canvas");
 
   randomIndex = floor(random(colors.length));
   shirtColor = colors[randomIndex];
 }
+
 
 function draw() {
   background("LightBlue");

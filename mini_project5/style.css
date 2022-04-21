@@ -1,0 +1,56 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color:rgb(190, 152, 225);
+}
+canvas {
+  display: block;
+ 
+}
+
+#p5-canvas {
+  position: relative;
+  left: calc(50% - 200px); /* half of canvas width */
+  top: calc(50% - 150px);  /* half of canvas height */
+}
+
+#box1{
+background-color:rgb(113, 54, 113);
+border-style: dotted;
+border-color: white;
+border-width: 5px;
+width: fit-content;
+height: fit-content;
+margin: 40px;
+}
+
+
+
+#title{
+  text-align: center;
+  position: relative;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+}
+#subtitle{
+  text-align: center;
+  position: relative;
+  color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+#intro{
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+}
+.link{
+  text-align: center;
+  position: relative;
+  color: lightgreen;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: small;
+}
